@@ -1,4 +1,4 @@
-function awm()
+function ade()
   warning("awm starting...");
 
   system_load("builtin/mouse.lua");
