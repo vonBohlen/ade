@@ -1,5 +1,5 @@
 function ade()
-  warning("awm starting...");
+  warning("awm starting...\n");
 
   system_load("builtin/mouse.lua");
   system_load("builtin/keyboard.lua");
