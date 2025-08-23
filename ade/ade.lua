@@ -1,10 +1,12 @@
-function ade()
+ function ade()
   warning("awm starting...\n");
 
   system_load("builtin/mouse.lua");
   system_load("builtin/keyboard.lua");
+  system_load("src/cursor.lua");
 
   initialize_desktop();
+  cursor.init_cursor();
 end
 
 function initialize_desktop()
