@@ -3,11 +3,10 @@
 
   system_load("builtin/mouse.lua");
   system_load("builtin/keyboard.lua");
-  system_load("src/cursor.lua");
 
   initialize_desktop();
-  cursor.init_cursor();
-end
+
+  end
 
 function initialize_desktop()
   local bg = load_image("bg.jpg", 2, 1280, 720);
