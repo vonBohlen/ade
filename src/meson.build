@@ -7,6 +7,7 @@ project(
 )
 
 dependencies = [
+  dependency('wayland-client')
 ]
 
 exe = executable(
